@@ -5,7 +5,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter Variable", "Inter", ...defaultTheme.fontFamily.sans],
+        serif: ["Lora", ...defaultTheme.fontFamily.serif] // Using Lora as the default serif font
+      },
+      colors: {
+        primary: "#E9A23B", // primary color
+        backgroundColor: "#F5F5F4", // background color
+        secondary: "#FEFBED", // secondary background color
+        text: "#1B1917", // text color
       },
     },
   },

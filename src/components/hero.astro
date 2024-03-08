@@ -6,8 +6,9 @@ import { Icon } from "astro-icon";
 ---
 
 <main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
-  <div class="py-6 md:order-1 hidden md:block">
+  class="pt-8 mb-8 md:pt-16 md:pb-12 pr-8 max-w-4xl">
+  <!--
+  <div class="py-6 lg:order-1 hidden lg:block">
     <Picture
       src={heroImage}
       alt="Astronaut in the air"
@@ -16,15 +17,22 @@ import { Icon } from "astro-icon";
       loading="eager"
       format="avif"
     />
-  </div>
+  </div>-->
+  
   <div>
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      The simplest AB test tools, free forever
+      class="pt-4 pb-4 font-serif text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+      The simplest AB test tools, <br>free forever
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      AB testing is the scientific edge of product and marketing work. It should be accessible to everyone. 
-      Use my free tools, my writings or contract me to make your org data driven.
+    <p class="text-med mt-4 text-slate-500 max-w-xl">
+      AB testing is confusing, uncertain and hard to explain. It is also the scientific edge of product and marketing work and should be accessible to everyone. 
+    </p>
+    <p class="text-med mt-4 text-slate-500 max-w-xl">
+      The confusion with AB tests largely comes from the jargon and the calculators. They're either aimed at amateurs or academic data scientists.
+      We need powerful tools for the rest of us. Understandable, explorable, action orientated and shareable.
+    </p>
+    <p class="text-med mt-4 text-slate-500 max-w-xl">
+      I'm building a suite of free tools to achieve this.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link

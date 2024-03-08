@@ -6,21 +6,23 @@ const features = [
   {
     title: "AB test calculator",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "We promise to always give you comprehensible and clear actions. No more 'maybes', it gives a clear yes, no or a date to check back.",
+    icon: "bx:bx-outline",
     link: "https://www.abtest.tools/calc",
   },
   {
     title: "[Soon] How much traffic do I need to test?",
     description:
-      "A way to decide what tests are worth running at all. Similar but better than the sample size calculators.",
-    icon: "bx:bxs-window-alt",
+      "Decide during your planning sessions what tests are worth running at all. Similar but better than the sample size calculators.",
+    icon: "bx:bx-volume-full",
+    link: "#"
   },
   {
     title: "[Soon] Should I be worried about this KPI?",
     description:
       "A KPI drops, your company panics, but it turns out to be noise. This tool will help you decide, upfront and in minutes, if it's time to panic or wait.",
-    icon: "bx:bxs-data",
+    icon: "bx:bx-alarm-exclamation",
+    link: "#"
   }
 ];
 ---
@@ -40,7 +42,7 @@ const features = [
             <Icon class="text-white" name={item.icon} />
           </div>
           <div>
-            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <h3 class="font-serif font-semibold text-lg">{item.title}</h3>{" "}
             <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
           </div>
         </div>
