@@ -1,0 +1,50 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "AB test calculator",
+    description:
+      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
+    icon: "bx:bxs-briefcase",
+    link: "https://www.abtest.tools/calc",
+  },
+  {
+    title: "[Soon] How much traffic do I need to test?",
+    description:
+      "A way to decide what tests are worth running at all. Similar but better than the sample size calculators.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "[Soon] Should I be worried about this KPI?",
+    description:
+      "A KPI drops, your company panics, but it turns out to be noise. This tool will help you decide, upfront and in minutes, if it's time to panic or wait.",
+    icon: "bx:bxs-data",
+  }
+];
+---
+
+<div class="mt-0 md:mt-0">
+  <!--<h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Everything you need to start a website
+  </h2>*/-->
+</div>
+
+<div class="grid grid-cols-2 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <a href="link">
+        <div class="flex gap-4 items-start">
+          <div class="mt4-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+            <Icon class="text-white" name={item.icon} />
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          </div>
+        </div>
+      </a>
+    ))
+  }
+</div>
