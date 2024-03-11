@@ -1,9 +1,9 @@
 /* empty css                          */
 import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, q as Fragment, m as maybeRenderHead, e as addAttribute } from '../astro_BTup8YuA.mjs';
 import 'kleur/colors';
-import { g as getCollection } from './_slug__BN5PKO_G.mjs';
+import { g as getCollection } from './_slug__DrY3fX37.mjs';
 import { a as $$Container, $ as $$Layout } from './404_DDuF96dY.mjs';
-import { $ as $$Sectionhead } from './about_BWmaC15p.mjs';
+import { $ as $$Sectionhead } from './about_OaOm1BHu.mjs';
 
 const $$Astro = createAstro("https://astroship.web3templates.com");
 const $$Blog = createComponent(async ($$result, $$props, $$slots) => {

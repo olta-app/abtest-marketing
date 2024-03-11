@@ -2,9 +2,9 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, g as renderComponent, q as Fragment } from '../astro_BTup8YuA.mjs';
 import 'kleur/colors';
 import { a as $$Container, $ as $$Layout } from './404_DDuF96dY.mjs';
-import { $ as $$Sectionhead } from './about_BWmaC15p.mjs';
+import { $ as $$Sectionhead } from './about_OaOm1BHu.mjs';
 import 'clsx';
-import { $ as $$Link } from './index_B7CHWIVn.mjs';
+import { $ as $$Link } from './index_CXi95_ys.mjs';
 
 const $$Astro$2 = createAstro("https://astroship.web3templates.com");
 const $$Tick = createComponent(async ($$result, $$props, $$slots) => {

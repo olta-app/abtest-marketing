@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./kitchensink_Dk2fcDpT.mjs');
+						return import('./kitchensink_CmhDti2H.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

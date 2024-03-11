@@ -1,7 +1,7 @@
 /* empty css                          */
 import { A as AstroError, n as InvalidImageService, o as ExpectedImageOptions, E as ExpectedImage, F as FailedToFetchRemoteImageDimensions, c as createAstro, d as createComponent, p as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, e as addAttribute, s as spreadAttributes, f as renderSlot, g as renderComponent, q as Fragment } from '../astro_BTup8YuA.mjs';
 import 'kleur/colors';
-import { g as getCollection } from './_slug__BN5PKO_G.mjs';
+import { g as getCollection } from './_slug__DrY3fX37.mjs';
 import { i as isRemoteImage, a as isESMImportedImage, b as isLocalService, D as DEFAULT_HASH_PROPS } from '../astro/assets-service_BdqMgsoZ.mjs';
 import 'clsx';
 import { a as $$Container, $ as $$Layout } from './404_DDuF96dY.mjs';

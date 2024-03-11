@@ -183,7 +183,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"team":{"type":"content","entries":{"janette-lynch":"/src/content/team/janette-lynch.md","marcell-ziemann":"/src/content/team/marcell-ziemann.md","robert-palmer":"/src/content/team/robert-palmer.md"}},"blog":{"type":"content","entries":{"how-to-become-frontend-master":"/src/content/blog/how-to-become-frontend-master.md","kitchensink":"/src/content/blog/kitchensink.mdx","complete-guide-fullstack-development":"/src/content/blog/complete-guide-fullstack-development.md","essential-data-structures-algorithms":"/src/content/blog/essential-data-structures-algorithms.md"}}};
+lookupMap = {"blog":{"type":"content","entries":{"how-to-become-frontend-master":"/src/content/blog/how-to-become-frontend-master.md","complete-guide-fullstack-development":"/src/content/blog/complete-guide-fullstack-development.md","kitchensink":"/src/content/blog/kitchensink.mdx","essential-data-structures-algorithms":"/src/content/blog/essential-data-structures-algorithms.md"}},"team":{"type":"content","entries":{"janette-lynch":"/src/content/team/janette-lynch.md","marcell-ziemann":"/src/content/team/marcell-ziemann.md","robert-palmer":"/src/content/team/robert-palmer.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -194,7 +194,7 @@ function createGlobLookup(glob) {
 	};
 }
 
-const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/blog/complete-guide-fullstack-development.md": () => import('../complete-guide-fullstack-development_BZWYwcm3.mjs'),"/src/content/blog/essential-data-structures-algorithms.md": () => import('../essential-data-structures-algorithms_CVh9eaC9.mjs'),"/src/content/blog/how-to-become-frontend-master.md": () => import('../how-to-become-frontend-master_B5tPzs5X.mjs'),"/src/content/blog/kitchensink.mdx": () => import('../kitchensink_B-4Wg_Uo.mjs'),"/src/content/team/janette-lynch.md": () => import('../janette-lynch_C76UoceT.mjs'),"/src/content/team/marcell-ziemann.md": () => import('../marcell-ziemann_DLNYHjg3.mjs'),"/src/content/team/robert-palmer.md": () => import('../robert-palmer_CqMqtKO9.mjs')});
+const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/blog/complete-guide-fullstack-development.md": () => import('../complete-guide-fullstack-development_BZWYwcm3.mjs'),"/src/content/blog/essential-data-structures-algorithms.md": () => import('../essential-data-structures-algorithms_CVh9eaC9.mjs'),"/src/content/blog/how-to-become-frontend-master.md": () => import('../how-to-become-frontend-master_B5tPzs5X.mjs'),"/src/content/blog/kitchensink.mdx": () => import('../kitchensink_CVOEB7Un.mjs'),"/src/content/team/janette-lynch.md": () => import('../janette-lynch_C76UoceT.mjs'),"/src/content/team/marcell-ziemann.md": () => import('../marcell-ziemann_DLNYHjg3.mjs'),"/src/content/team/robert-palmer.md": () => import('../robert-palmer_CqMqtKO9.mjs')});
 const collectionToRenderEntryMap = createCollectionToGlobResultMap({
 	globResult: renderEntryGlob,
 	contentDir,

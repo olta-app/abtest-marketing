@@ -4,7 +4,7 @@ import 'kleur/colors';
 import 'clsx';
 /* empty css                            */
 import { a as $$Container, $ as $$Layout } from './404_DDuF96dY.mjs';
-import { $ as $$Sectionhead } from './about_BWmaC15p.mjs';
+import { $ as $$Sectionhead } from './about_OaOm1BHu.mjs';
 import { getIconData, iconToSVG } from '@iconify/utils';
 
 const $$Astro$3 = createAstro("https://astroship.web3templates.com");

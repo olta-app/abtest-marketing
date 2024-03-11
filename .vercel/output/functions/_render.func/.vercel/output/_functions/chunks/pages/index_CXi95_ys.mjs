@@ -3,7 +3,7 @@ import { c as createAstro, d as createComponent, r as renderTemplate, m as maybe
 import 'kleur/colors';
 import { a as $$Container, $ as $$Layout } from './404_DDuF96dY.mjs';
 import 'clsx';
-import { $ as $$Icon } from './contact_C4o_Q8gP.mjs';
+import { $ as $$Icon } from './contact_CmyWxLp-.mjs';
 
 const $$Astro$4 = createAstro("https://astroship.web3templates.com");
 const $$Link = createComponent(async ($$result, $$props, $$slots) => {
@@ -110,8 +110,7 @@ const $$Astro = createAstro("https://astroship.web3templates.com");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;
-  return renderTemplate`export const prerender = true;
-${renderComponent($$result, "Layout", $$Layout, { "title": "" }, { "default": ($$result2) => renderTemplate`${renderComponent($$result2, "Container", $$Container, {}, { "default": ($$result3) => renderTemplate`${renderComponent($$result3, "Hero", $$Hero, {})}${renderComponent($$result3, "Apps", $$AppsDetails, {})}${renderComponent($$result3, "Cta", $$Cta, {})}` })}` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "" }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Container", $$Container, {}, { "default": ($$result3) => renderTemplate` ${renderComponent($$result3, "Hero", $$Hero, {})} ${renderComponent($$result3, "Apps", $$AppsDetails, {})} ${renderComponent($$result3, "Cta", $$Cta, {})} ` })} ` })}`;
 }, "/Users/conormurphy/Documents/GitHub/abtest-marketing/src/pages/index.astro", void 0);
 
 const $$file = "/Users/conormurphy/Documents/GitHub/abtest-marketing/src/pages/index.astro";
